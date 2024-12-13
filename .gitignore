@@ -1,2 +1,20 @@
 #Ignore RStudio project files
-.R
+.Rproj.user/
+.Rhistory
+.RData
+
+#Ignore build and package files
+*.tar.gz
+*.Rcheck/
+
+#Ignore temporary files
+*.log
+*.out
+*.tmp
+
+#Ignore OS-generated files
+.DS_Store         # macOS
+Thumbs.db         # Windows
+
+#Ignore documentation builds
+docs/
